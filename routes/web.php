@@ -18,3 +18,5 @@ Route::get('/', function () {
 Route::get('/user', 'PhotoController@index');
 Route::post('/insertRecords', 'PhotoController@insertRecords');
 Route::post('/deleteRecords', 'PhotoController@deleteRecords');
+
+Route::get('blog', '\Modules\Blog\Http\Controllers\BlogController@index');
