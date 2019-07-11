@@ -20,3 +20,4 @@ Route::post('/insertRecords', 'PhotoController@insertRecords');
 Route::post('/deleteRecords', 'PhotoController@deleteRecords');
 
 Route::get('blog', '\Modules\Blog\Http\Controllers\BlogController@index');
+Route::get('contact', '\Modules\Blog\Http\Controllers\ContactController@index');
