@@ -1,3 +1,5 @@
+
+<br><a href="demo"><button type="button" class="btn btn-success" id=''>Blog Module</button></a>
 @extends('blog::layouts.master')
 
 @section('content')

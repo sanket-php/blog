@@ -10,8 +10,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-
 <div class="container">
+  <br><a href="blog"><button type="button" class="btn btn-success" id=''>Blog Module</button></a>
   <h2>Basic Table</h2>
   <table class="table">
     <thead>
